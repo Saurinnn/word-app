@@ -13,8 +13,24 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['"Noto Sans"', '"Noto Sans CJK JP"', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                primary: {
+                    DEFAULT: '#58CC02',
+                    hover: '#46A302',
+                    active: '#46A302',
+                },
+                success: {
+                    DEFAULT: '#4CAF50',
+                    hover: '#43A047',
+                },
+                error: {
+                    DEFAULT: '#F44336',
+                    hover: '#E53935',
+                },
+                neutral: '#777777',
+            }
         },
     },
 
