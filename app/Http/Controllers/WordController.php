@@ -128,6 +128,8 @@ class WordController extends Controller
         $file = $request->file('file');
         
         $content = file_get_contents($file->getRealPath());
+        // Excelなどが出力するBOM（\xEF\xBB\xBF）を削除
+        $content = preg_replace('/^\xEF\xBB\xBF/', '', $content);
         $content = mb_convert_encoding($content, 'UTF-8', 'UTF-8, SJIS-win, SJIS, EUC-JP');
         
         $lines = explode("\n", str_replace(["\r\n", "\r"], "\n", $content));
