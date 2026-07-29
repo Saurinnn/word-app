@@ -13,7 +13,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['"Noto Sans"', '"Noto Sans CJK JP"', ...defaultTheme.fontFamily.sans],
+                sans: ['Nunito', '"Noto Sans"', '"Noto Sans CJK JP"', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: {
