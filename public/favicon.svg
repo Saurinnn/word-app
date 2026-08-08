@@ -1,0 +1,30 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Body -->
+    <ellipse cx="50" cy="55" rx="35" ry="38" fill="#58cc02" />
+    <!-- Belly -->
+    <ellipse cx="50" cy="62" rx="22" ry="24" fill="#a5ed6e" />
+    <!-- Belly feathers -->
+    <path d="M42 58L45 61L48 58" stroke="#58cc02" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M52 58L55 61L58 58" stroke="#58cc02" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M47 66L50 69L53 66" stroke="#58cc02" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Ears -->
+    <path d="M22 28L15 42L28 35Z" fill="#58cc02" />
+    <path d="M78 28L85 42L72 35Z" fill="#58cc02" />
+    <!-- Eyes -->
+    <circle cx="36" cy="40" r="14" fill="white" stroke="#46a302" stroke-width="3" />
+    <circle cx="64" cy="40" r="14" fill="white" stroke="#46a302" stroke-width="3" />
+    <!-- Pupils -->
+    <circle cx="38" cy="40" r="6" fill="#1b1b1b" />
+    <circle cx="62" cy="40" r="6" fill="#1b1b1b" />
+    <!-- Pupil Highlights -->
+    <circle cx="36" cy="38" r="2" fill="white" />
+    <circle cx="60" cy="38" r="2" fill="white" />
+    <!-- Beak -->
+    <path d="M50 45L45 52L55 52Z" fill="#ff9600" />
+    <!-- Feet -->
+    <circle cx="40" cy="92" r="5" fill="#ff9600" />
+    <circle cx="60" cy="92" r="5" fill="#ff9600" />
+    <!-- Wings -->
+    <path d="M12 55C8 55 6 65 14 70C20 74 22 68 20 60Z" fill="#46a302" />
+    <path d="M88 55C92 55 94 65 86 70C80 74 78 68 80 60Z" fill="#46a302" />
+</svg>
